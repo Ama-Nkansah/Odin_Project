@@ -1,0 +1,17 @@
+Summary of Conditionals
+
+Conditionals in JavaScript allow you to make decisions in your code based on specific conditions. The main types include:
+
+-If Statement: Runs a block of code if the condition is true.
+-If-Else Statement: Provides an alternate block of code to run if the condition is false.
+-Else-If Statement: Adds multiple conditions to check sequentially.
+-Switch Statement: Evaluates an expression and matches its value against multiple cases, running the block of code for the matching case.
+
+
+
+Summary of Loops
+
+-Loops in JavaScript allow you to repeat a block of code multiple times. The main types of loops are:
+-For Loop: Executes a block of code a specific number of times. It's useful when you know in advance how many times you want the loop to run.
+-While Loop: Repeats a block of code as long as a condition is true. It’s helpful when you don’t know how many times the loop should run but have a condition to stop it.
+-Do-While Loop: Similar to the while loop, but it always executes the code block at least once because the condition is checked after the code block runs.
