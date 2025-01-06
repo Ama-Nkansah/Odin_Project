@@ -1,4 +1,4 @@
-Summary of Conditionals
+**Summary of Conditionals**
 
 Conditionals in JavaScript allow you to make decisions in your code based on specific conditions. The main types include:
 
@@ -9,7 +9,7 @@ Conditionals in JavaScript allow you to make decisions in your code based on spe
 
 
 
-Summary of Loops
+**Summary of Loops**
 
 Loops in JavaScript allow you to repeat a block of code multiple times. The main types of loops are:
 

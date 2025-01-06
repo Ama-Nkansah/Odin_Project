@@ -1,4 +1,4 @@
-Types of Errors in JavaScript:
+##Types of Errors in JavaScript:##
 
 -Reference Error: Occurs when a variable is used before it's declared or defined.
 

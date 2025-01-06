@@ -1,0 +1,57 @@
+## Operators in JavaScript ##
+
+*Arithmetic Operators*
+
+These operators are used for mathematical calculations:
+
++ : Adds two numbers.
+- : Subtracts one number from another.
+* : Multiplies two numbers.
+/ : Divides one number by another.
+% : Returns the remainder of a division.
+** : Raises a number to the power of another.
+
+*Increment and Decrement Operators*
+
+These are shorthand for adding or subtracting 1 to/from a variable.
+
+Post-Increment (i++): Returns the current value, then increments.
+Pre-Increment (++i): Increments first, then returns the new value.
+Post-Decrement (i--): Returns the current value, then decrements.
+Pre-Decrement (--i): Decrements first, then returns the new value.
+
+*Assignment Operators*
+
+Used to assign or update values:
+
+= : Assigns a value.
++= : Adds and assigns.
+-= : Subtracts and assigns.
+*= : Multiplies and assigns.
+/= : Divides and assigns.
+%= : Modulus and assigns.
+
+*Comparison Operators*
+
+Used to compare two values:
+
+== : Checks if values are equal.
+=== : Strictly equal (checks value and type).
+!= : Checks if values are not equal.
+!== : Strictly not equal.
+< : Less than.
+> : Greater than.
+<= : Less than or equal to.
+>= : Greater than or equal to.
+
+*Logical Operators*
+
+These are used for Boolean logic:
+
+&& : Logical AND. Returns true if all conditions are true.
+|| : Logical OR. Returns true if any condition is true.
+! : Logical NOT. Inverts a condition.
+Other Operators
+Ternary Operator (? :): A shorthand for if-else.
+typeof: Returns the data type of a value.
+delete: Removes a property from an object.
