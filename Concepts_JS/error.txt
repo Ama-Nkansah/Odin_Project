@@ -1,0 +1,12 @@
+Types of Errors in JavaScript:
+
+-Reference Error: Occurs when a variable is used before it's declared or defined.
+
+* Stack Trace: Shows the series of function calls that led to the error, helping to identify where the error occurred.
+* Reference Error with Lines and Columns: The error message includes specific line numbers and columns, making it easier to locate the issue in the code.
+
+-Type Error: Happens when a variable is used in an inappropriate way, like calling a non-function value or performing operations on incompatible data types.
+
+-Syntax Error: Occurs when the code doesn't follow the correct syntax rules, like missing parentheses or curly braces.
+
+Undefined: A variable that is declared but not assigned a value yet. JavaScript automatically assigns undefined to indicate that the variable exists but doesn't hold any value.
