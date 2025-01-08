@@ -25,29 +25,32 @@ function getComputerChoice () {
     return "scissors";
    }
  }
- humanScore = getHumanChoice ();
- computerScore = getComputerChoice ();
-
-function playGame (){
+ 
   function playRound (humanChoice,computerChoice){
     humanChoice = humanChoice.toLowerCase();
     computerChoice = computerChoice.toLowerCase();
 
-    if (humanScore > computerChoice){
-    console.log( `${humanScore} is winner over ${computerScore}` );
+    if (humanChoice > computerChoice){
+    console.log( `${humanChoice} is winner over ${computerChoice}` );
     humanScore++;
-  } else if (computerChoice > humanScore ) {
-    console.log( `${computerScore} is winner over ${humanScore}` );
-    computerChoice++;
+  } else if (computerChoice > humanChoice ) {
+    console.log( `${computerChoice} is winner over ${humanChoice}` );
+    computerScore++;
   }else{ console.log( `It's a draw` );  
   }
   }
-  const gameResult = playGame ();
-  alert( gameResult);
-}
+   
+  function playGame (){
+    let myUserChoice = getHumanChoice();
+    let myComputerChoice = getComputerChoice ();
 
-playGame ();
+    playRound(myUserChoice,myComputerChoice);
+    console.log(`Current Scores: You - ${humanScore}, Computer - ${computerScore}`);
+  }
+
+
+playGame();
 
 
 
-
+//when back add comments to get more explanation
