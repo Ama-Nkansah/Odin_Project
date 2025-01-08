@@ -1,3 +1,12 @@
+let humanScore = 0;
+let computerScore = 0;
+
+function 
+
+
+function getHumanChoice () {
+  prompt("Enter a number between 0 and 1");
+  
 function getComputerChoice () {
  let randomnumber = Math.random()
 
@@ -9,7 +18,10 @@ function getComputerChoice () {
     return "scissors";
    }
  }
+ const result = getComputerChoice();
+alert(result);
+}
+
+console.log(getHumanChoice ());
 
 
-const result = getComputerChoice();
-console.log(result);
