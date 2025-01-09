@@ -1,7 +1,8 @@
+//initializing the score(as in 1-0) variables
 let humanScore = 0;
 let computerScore = 0;
 
-
+//
 function getHumanChoice () {
   let myPrompt= prompt("Enter a number between 0 and 1");
 
