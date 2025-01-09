@@ -28,10 +28,13 @@ function getComputerChoice () {
    }
  }
  
+ //
   function playRound (humanChoice,computerChoice){
+    //it changes all the args to same case to make it case-insensitive
     humanChoice = humanChoice.toLowerCase();
     computerChoice = computerChoice.toLowerCase();
-
+    
+    //comparing of args
     if (humanChoice > computerChoice){
     console.log( `${humanChoice} is winner over ${computerChoice}` );
     humanScore++;
@@ -41,6 +44,7 @@ function getComputerChoice () {
   }else{ console.log( `It's a draw` );  
   }
   }
+  //
    
   function playGame (){
     let myUserChoice = getHumanChoice();
