@@ -15,6 +15,7 @@ function getHumanChoice () {
      }
 }
 
+//a function to generate the computer's number randomly and check whether it is rock,paper or scissors.
 function getComputerChoice () {
  let randomnumber = Math.random()
 
