@@ -2,7 +2,7 @@
 let humanScore = 0;
 let computerScore = 0;
 
-//
+//a function to get the user input by prompt and use the input to generate whether it is rock,paper or scissors.
 function getHumanChoice () {
   let myPrompt= prompt("Enter a number between 0 and 1");
 
