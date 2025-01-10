@@ -44,8 +44,8 @@ function getComputerChoice () {
   }else{ console.log( `It's a draw` );  
   }
   }
-  //
-   
+
+  //the function for playing my game
   function playGame (){
     let myUserChoice = getHumanChoice();
     let myComputerChoice = getComputerChoice ();
