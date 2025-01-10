@@ -47,6 +47,7 @@ function getComputerChoice () {
 
   //the function for playing my game
   function playGame (){
+    //stored the args of playround
     let myUserChoice = getHumanChoice();
     let myComputerChoice = getComputerChoice ();
 
