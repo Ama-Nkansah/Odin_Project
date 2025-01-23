@@ -48,10 +48,11 @@ function getComputerChoice () {
   //the function for playing my game
   function playGame (){
 
-    //stored the args of playround
+    //stored the functions in a variable(used as args for playround function )
     let myUserChoice = getHumanChoice();
     let myComputerChoice = getComputerChoice ();
-
+     
+    //callback function
     playRound(myUserChoice,myComputerChoice);
     console.log(`Current Scores: You - ${humanScore}, Computer - ${computerScore}`);
   }
